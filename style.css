@@ -1,0 +1,27 @@
+a {
+  color:blue;
+  text-decoration: none;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 10px;
+}
+ul{
+  border-right: 2px solid gray;
+  width: 70px;
+}
+@media(max-width:410px) {
+  div{
+    display: none;
+  }
+  h1{
+  border-bottom: none;
+  font-size: 20px;
+  }
+}
+.saw{
+  color: gray;
+}
